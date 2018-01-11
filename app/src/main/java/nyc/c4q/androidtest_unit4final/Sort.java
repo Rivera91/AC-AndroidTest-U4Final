@@ -22,5 +22,22 @@ public class Sort {
         // You may not use Collections.sort or its equivalent
         // You may not implement another sorting algorithm that is not "selection sort"
         // Tip: Try a version without ordering first.
+
+
+//        public void selectionSort(int[] arr) {
+//            for (int n = arr.length; n > 0; n--) {
+//                // step 1: find largest element
+//                int largest = 0;
+//                for(int i = 0; i < n; i++) {
+//                    if (arr[i] > arr[largest]) {
+//                        largest = i;
+//                    }
+//                }
+//                // step 2: swap the elements
+//                int tmp = arr[largest];
+//                arr[largest] = arr[n-1];
+//                arr[n-1] = tmp;
+//            }
+//        }
     }
 }
